@@ -10,7 +10,7 @@
 	}
 
 	$phone=$_POST['phone'];
-    $id=$_POST['id'];
+    $id=$_SESSION['id'];
 
 	 $sql= "UPDATE users SET phone='$phone' WHERE id='$id'";
 
@@ -18,6 +18,6 @@
 
 	$result = mysqli_query($conn,$sql);
 
-	header("location:success.php");
+	header("location:upsuc.php");
 
  ?>

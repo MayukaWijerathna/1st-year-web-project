@@ -1,0 +1,44 @@
+#catbox{
+  	width: 362.5px;
+  	height: 100%;
+  	background-color: white;
+  	float: left;
+}
+#maindiv{
+  	width: 1500px;
+  	height:750px;
+  	background-color:#888888;
+  	float: left; 
+}
+#hspace1{
+	width: 10px;
+	height: 100%;
+	float: left;
+}
+#catbox1{
+  	width: 100%;
+  	height: 236.67px;
+  	float: left;
+}
+#hspace2{
+	width: 100%;
+	height: 10px;
+	float: left;
+	background-color:#888888;
+}
+#catbox2{
+  	width: 100%;
+  	height: 730px;
+  	float: left;
+}
+#bt1{
+  text-decoration:none;
+  color: white;
+  background-color:#4A235A; 
+}
+#bt1:hover{
+	background-color: #9C1717;
+}
+#headtitle{
+    color: darkred;
+}

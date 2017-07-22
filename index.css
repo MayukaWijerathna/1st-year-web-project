@@ -1,0 +1,41 @@
+#maindiv{
+	width: 950px;
+  height:625px;
+ 	padding-top: 125px;
+  padding-left: 550px; 
+  background-color:#888888; 
+}
+#frmdiv1{
+	width: 390px;
+	height: 490px;
+	background-color: white;
+	padding-top: 10px;
+	padding-left: 10px;	
+}
+#input1{
+  width: 372px;
+  height: 50px;
+  font-size: 16px;
+  font-family: arial;  
+  text-align: center;
+}
+
+#button1{
+  width: 372px;
+  height: 50px;
+  background-color: #0E6668;
+  color: white;
+  font-family: arial;
+  font-size: 16px;  
+  border-style: none;
+  cursor: pointer;  
+}
+#button1:hover{
+  background-color: #D4AC0D;
+}
+#title1{
+	color: #9C1717;
+	font-size: 30px;
+	font-family: arial;
+	font-weight: bold;
+}

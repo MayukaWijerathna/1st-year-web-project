@@ -1,5 +1,6 @@
 <?php 
 
+session_start();
 
 	$conn = mysqli_connect("localhost","root","","lms");
 
@@ -9,20 +10,27 @@
 
 	}
 
-	$username=$_POST['username'];
-	$id=$_POST['id'];
-	$password=$_POST['password'];
-	$faculty=$_POST['faculty'];
-	$email=$_POST['email'];
-	$phone=$_POST['phone'];
+$uid = $_POST['id'];
+$pwd = $_POST['password'];
 
 
-	$sql = "INSERT INTO users(username,id,password,faculty,email,phone) VALUES('$username', '$id', '$password', '$faculty', '$email', '$phone')";
+$sql = "SELECT * FROM users WHERE id='$uid' AND password='$pwd'";
 
 
+$result = mysqli_query($conn,$sql);
 
-	$result = mysqli_query($conn,$sql);
+if(!$row = mysqli_fetch_assoc($result)){
+	header('Location:error.php');
+}else {
+ 	$_SESSION['username'] = $row['username'];
+ 	$_SESSION['password'] = $row['password'];
+ 	$_SESSION['phone'] = $row['phone'];
+ 	$_SESSION['email'] = $row['email'];
+ 	$_SESSION['id'] = $row['id'];
+ 	$_SESSION['faculty'] = $row['faculty'];
+ 	header('Location:home.php');
 
-	header("location:success.php");
+}
+
 
  ?>

@@ -23,6 +23,6 @@
 
 	$result = mysqli_query($conn,$sql);
 
-	header("location:success.php");
+	header("location:regsuc.php");
 
  ?>

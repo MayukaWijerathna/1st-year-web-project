@@ -1,0 +1,36 @@
+#regtable{
+	width: 700px;
+	height: 350px;
+}
+#cap1txt1{
+	font-size: 16px;
+	font-family: arial;
+	color: white;
+
+}
+#input1{
+	font-family: arial;
+	font-size: 16px;
+	width: 400px;
+	height: 25px;
+}
+#subkey1{
+	width: 100px;
+	height: 40px;
+	background-color: #0E6668;
+	color: white;
+	font-family: arial;
+	font-size: 16px;
+	border-style: none;
+	cursor: pointer;	
+}
+#subkey1:hover{
+	background-color: white;
+	color: #0E6668;
+}
+#bodydiv331{
+	visibility: hidden;
+}
+#bodydiv332{
+	visibility: hidden;
+}

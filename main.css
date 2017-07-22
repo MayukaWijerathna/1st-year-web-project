@@ -1,0 +1,350 @@
+#maindiv{
+	width: 1500px;
+	height:750px;
+	
+}
+#navbardiv{
+	width:20%;
+	height: 100%;
+	background-color:white;
+	opacity: 0.90;
+	float: left;
+}
+#bodydiv{
+	width: 80%;
+	height: 100%;
+	float: left;
+}
+#bodydiv2{
+	width: 100%;
+	height: 78%;
+	float: left;
+	
+}
+#bodydiv3{
+	width:100%;
+	height: 6%;
+	background-color: black;
+	opacity: 0.7;
+	float: left;
+}
+#bodydiv1{
+	width: 100%;
+	height: 15.6%;
+	float: left;
+}
+#bodylinediv1{
+	width: 99%;
+	height: 0.3%;
+	float: right;
+	background-color: white;
+	opacity: 0.95;
+}
+#navspacediv1{
+	width: 100%;
+	height: 3%;
+}
+#logodiv1{
+	width: 100%;
+	height: 12.6%;
+}
+#logo1{
+	width: 236px;
+	height: 66px;
+}
+#navtispace{
+	float: left;
+	width: 5%;
+	height: 0.3%;
+}
+#navtispace1{
+	float: left;
+	background-color: black;
+	width: 90%;
+	height: 0.3%;
+}
+#navtitlediv{
+	width: 100%;
+	height: 10%;
+	font-family:arial;
+	font-weight:bold;
+	font-size: 16px;
+	color:black;
+}
+#navbutton{
+	color: black;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    opacity: 0.9;
+    font-size: 16px;
+    font-family: arial;
+    cursor: pointer;
+}
+div#navbutton:hover{
+     background-color: black;
+     color: white;
+}
+
+#bodydiva{
+	background-color: #232B25;
+	width: 95%;
+	height:95%;
+	float: left;
+	opacity: 0.9;
+}
+#bodydiv21{
+	width: 100%;
+	height: 2.5%;
+	float: left;
+}
+#bodydiv23{
+	width: 2.5%;
+	height: 95%;
+	float: left;
+}
+#bodydiv11{
+	width: 100%;
+	height: 5%;
+	float: left;
+}
+#bodydiv12{
+	width: 75%;
+	height: 95%;
+	float: left;
+}
+#bodydiv13{
+	width: 25%;
+	height: 80%;
+	float: left;
+	background-color: black;
+	opacity: 0.7;
+		
+}
+div#bodydiv13:hover{
+	background-color: #EB6028;
+}
+#bodydiv31{
+	width: 100%;
+	height: 15%;
+	float: left;
+}
+#bodydiv32{
+	width: 91.5%;
+	height: 70%;
+	float: left;
+}
+#bodydiv331{
+	width:3.5%;
+	height: 72%;
+	float: left;
+	background-color: #0E6668;
+	cursor: pointer;
+	border-radius: 50%;
+}
+#bodydiv332{
+	width:3.5%;
+	height: 72%;
+	float: left;
+	background-color: #0E6668;
+	cursor: pointer;
+	border-radius: 50%;
+}
+#bodydiv34{
+	width:0.5%;
+	height:70%;
+	float: left;
+
+}
+#textnavb{
+	font-family: arial;
+	color: white;
+	font-weight: bold;
+	font-size: 28px;
+	padding: 5px 12.5px;
+	text-decoration: none;
+
+}
+div#bodydiv331:hover{
+	background-color: #EB6028;
+
+}
+div#bodydiv332:hover{
+	background-color: #EB6028;
+
+}
+#bodydiv111{
+	width: 100%;
+	height: 5%;
+	float: left;
+}
+#bodydiv112{
+	width: 5%;
+	height: 90%;
+	float: left;
+}
+#bodymsgdiv1{
+	width:90%;
+	height: 80%;
+	float:left;
+	opacity: 0.7;
+	padding-left: 10px ;
+	padding-top: 10px;
+	
+}
+#msgtxt{
+	font-size: 24px;
+	color: white;
+	font-family:arial;
+	
+}
+#msgtxt1{
+	font-size:14px;
+	color: white;
+	font-family: arial;
+}
+#bodydiv13a{
+	width: 100%;
+	height: 9%;
+	float:left;
+}
+#bodydiv13b{
+	width: 3%;
+	height: 90%;
+	float: left;
+}
+#bodydiv13c{
+	width: 24%;
+	height: 90%;
+	float: left;
+}
+#userimg{
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+}
+#bodydiv13d{
+	width: 1%;
+	height: 80%;
+	float: left;
+	background-color:white;
+}
+#bodydiv13e{
+	width: 3%;
+	height: 80%;
+	float: left;
+}
+#bodydiv13g{
+	width: 26%;
+	height: 80%;
+	float: left;
+}
+#bodydiv13f{
+	width: 42%;
+	height: 80%;
+	float: left;
+}
+#username{
+	color: white;
+	font-family: arial;
+	font-size:24px;
+	text-decoration: none;
+}
+
+#bodydiv321{
+	width: 3%;
+	height: 100%;
+	float:left;
+}
+#navtxtmsg{
+	color: white;
+	size: 12px;
+	font-family: arial;
+
+}
+#navtxtmsgdiv{
+	padding-top: 8px;
+}
+#navbuttontxt{
+	text-decoration: none;
+	color: white;
+
+
+}
+#bmargindiv{
+	width:3%;
+	height:100%;
+	float:left;
+}
+#bmargindiv2{
+	width:94%;
+	height:100%;
+	float:left;
+	padding-top:35px;
+}
+#btitle1{
+	font-family:arial;
+	font-weight: bold;
+	color: white;
+	font-size: 36px;
+}
+#bline1{
+	width:100%;
+	height:2px;
+	background-color: white;
+}
+#bmargindiv3{
+	width:3%;
+	height:100%;
+	float:right;
+}
+.background-wrap{
+	position: fixed;
+	z-index: -1000;
+	width: 100%;
+	height:100%;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+}
+#video-bg-elem{
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-height: 100%;
+	min-width: 100%;
+
+}
+#navbutton1{
+	background-color: #629176;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    opacity: 0.9;
+    font-size: 16px;
+    font-family: arial;
+    cursor: pointer;
+}
+div#navbutton1:hover{
+     background-color: #446D55;
+}
+#navbuttontxt1{
+	color: white;
+	text-decoration:none;
+}
+#navbutton2{
+	background-color: #B96E6E;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    opacity: 0.9;
+    font-size: 16px;
+    font-family: arial;
+    cursor: pointer;
+}
+div#navbutton2:hover{
+     background-color: #704545;
+}
